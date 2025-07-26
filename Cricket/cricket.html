@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>JS Project 1 : Cricket Game</title>
+   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="cricket.css">
+</head>
+
+<body>
+<h1>Bat Ball Stump Game</h1>
+<div class="info-section">
+  <h2>🎮 How the Game Works</h2>
+  <p>
+    This is a simple cricket-themed game where you and the computer both choose one of the three options: <strong>Bat</strong>, <strong>Ball</strong>, or <strong>Stump</strong>.
+  </p>
+  <p>
+    The result is based on a custom rule set:
+  </p>
+  <ul class="rule-list">
+    <li><strong>Bat 🏏 vs Ball ⚾ </strong> → <span class="winner">Bat</span> wins</li>
+    <li><strong>Ball ⚾ vs Stump 💥</strong> → <span class="winner">Ball</span> wins</li>
+    <li><strong>Bat 🏏 vs Stump 💥</strong> → <span class="winner">Stump</span> wins</li>
+    <li><strong>Same choice</strong> → <span class="tie">It's a tie</span></li>
+  </ul>
+  <p>
+    The computer picks randomly. Your goal is to choose wisely based on possible outcomes!
+  </p>
+</div>
+<div class="gameContainer">
+  <img src="Cricket.webp">
+  <br>
+<!-- Bat Button -->
+<button onclick="playBat()">Bat</button>
+
+<!-- Ball Button -->
+<button onclick="playBall() ">Ball</button>
+
+<!-- Stump Button -->
+<button onclick="playStump()">Stump</button>
+</div>
+
+<script src="cricket.js"></script>
+</body>
+</html>
