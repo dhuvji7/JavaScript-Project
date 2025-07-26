@@ -46,4 +46,4 @@ The computer picks randomly each time, and the result is shown in an alert box.
 
 1. Clone the repo:
    ```bash
-   git clone https://github.com/dhuvji7/Cricket.git
+   git clone https://github.com/dhuvji7/JavaScript-Project.git
