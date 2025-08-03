@@ -4,11 +4,6 @@
 
 ---
 
-## 📸 Live Demo
-
-🚀 [View Project](https://dhruvji7.github.io/rangrezaa/) *(replace with your GitHub Pages link)*
-
----
 
 ## 🖼️ Features
 
@@ -19,5 +14,6 @@
 - 🧭 Responsive navigation bar
 - 💅 Clean, modern UI with subtle animations
 - 🎨 Fully styled using custom CSS (no frameworks)
+
 
 
