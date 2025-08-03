@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Welcome to Rangrezaa</title>
+  <link rel="stylesheet" href="css/landing.css" />
+</head>
+<body>
+  <div class="splash-container" id="splash">
+    <a href="index.html" target="_blank">
+    <img src="images/logo1.png" alt="Rangrezaa Logo"  class="logo" />
+</a>
+    <p class="tagline">India’s vibrant destination for fashion, lifestyle & beauty</p>
+
+    <p class="description">
+      Discover top brands, exclusive deals, and trendsetting styles for men, women, and kids — all in one place.
+      From ethnic elegance to modern minimalism, Rangrezaa brings you a seamless online shopping experience tailored just for you.
+    </p>
+
+    <button onclick="goToHome()">Enter Rangrezaa</button>
+  </div>
+
+   <script>
+  function goToHome() {
+    const splash = document.getElementById('splash');
+    splash.classList.add('fade-out');
+
+    setTimeout(() => {
+      window.open("index.html", "_blank");
+    }, 700); // Delay to allow fade-out animation
+  }
+</script>
+</body>
+</html>
+
